@@ -6,4 +6,4 @@
 - [Architecture](/architecture.md) 
 - [Design Document](/design.md) 
 - [Test Report](/testreport.md)
-- [Contributing](/testpage.md)
+- [Contributing](/developers.md)
