@@ -65,6 +65,8 @@ git clone https://github.com/RustyRaptor/SolvAR.git
 
 ![picture 7](img/UnityEditor1.png) 
 
+#### Load our packages into the editor
+
 - Find the file in our main git repo called SolvAR_Unity_v0.05.unitypackage
     - This contains the code and assets for our project. 
     - As of writing this it is located in SolvAR/Working_Packages/SolvAR_Unity_v0.05.unitypackage
