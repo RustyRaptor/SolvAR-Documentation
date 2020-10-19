@@ -6,3 +6,4 @@
 - [Architecture](/architecture.md) 
 - [Design Document](/design.md) 
 - [Test Report](/testreport.md)
+- [Contributing](/CONTRIBUTING.md)
