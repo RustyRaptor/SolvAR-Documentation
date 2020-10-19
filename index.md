@@ -2,8 +2,8 @@
 
 - [Problem Statement](/problem.md) 
 - [User Stories](/userstories.md) 
-- [Requirements](/Requirements.md) 
+- [Requirements](/requirements.md) 
 - [Architecture](/architecture.md) 
 - [Design Document](/design.md) 
 - [Test Report](/testreport.md)
-- [Contributing](/CONTRIBUTING.md)
+- [Contributing](/contributing.md)

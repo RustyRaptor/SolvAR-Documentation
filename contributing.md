@@ -2,6 +2,7 @@
 
 
 ## Prerequisites
+
 - GPU capable PC
 - A supported OS
     - Windows 10
@@ -9,6 +10,7 @@
     - Linux (with appimage support)
 
 ## Clone this repo
+
 ```
 git clone https://github.com/RustyRaptor/SolvAR.git
 ```
