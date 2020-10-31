@@ -1,0 +1,10 @@
+graph TD
+
+    A[Dummy Data File]
+    B[Dummy Data Emitter]
+    D[SolvAR App]
+    E[User]
+    A --> B
+    B --> |Unity out-of-process| D
+    D --> E 
+    E --> D

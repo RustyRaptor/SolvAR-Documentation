@@ -1,0 +1,14 @@
+graph TD
+
+    A1[TV Remote]
+    A2[Car Keys]
+    A3[iPhone 20]
+    B[Android BT]
+    D[SolvAR App]
+    E[User]
+    A2 --> |bluetooth tracker| B
+    A1 --> |bluetooth tracker| B
+    A3 --> |bluetooth tracker| B
+    B --> D
+    D --> E 
+    E --> D
