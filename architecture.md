@@ -4,16 +4,19 @@
 ---
 Our project is an Android application that is built in Unity 3D that will display the emulated location of select objects in augmented reality. The scope of this project covers the emulation of location from a bluetooth tracker, as well as building the scene, prefabs, and scripts in Unity to design the augmented reality experience and user interface.
 
-## Key Architectural Drivers: what reqs were essential in driving architecture decision?
+## Key Architectural Drivers
 ---
 
-### NF.4.1.7.
+### what reqs were essential in driving architecture decision?
 
-Has to interface with AR Foundation. AR Foundation is a Unity package that is the keystone of our project, so the architecture of our project has essentially been built around AR Foundation.
 
-### NF.4.1.3.
+#### NF.4.1.7. Has to interface with AR Foundation.
 
-Devices must display user chosen 3D model over the emulated location. The architecture of our project has to be able to handle mobile app design, 3D modeling, scripting, AR, and performance, so we needed an architectural model that accounts for multiple key perspectives.
+ AR Foundation is a Unity package that is the keystone of our project, so the architecture of our project has essentially been built around AR Foundation.
+
+#### NF.4.1.3. Devices must display user chosen 3D model over the emulated location. 
+
+The architecture of our project has to be able to handle mobile app design, 3D modeling, scripting, AR, and performance, so we needed an architectural model that accounts for multiple key perspectives.
 
 ## Architectural Style Choices
 ---
