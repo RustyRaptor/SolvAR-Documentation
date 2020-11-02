@@ -58,29 +58,33 @@ https://github.com/RustyRaptor/SolvAR-Documentation/blob/gh-pages/userstories.md
 *Describe what kinds of interfaces your product has, and what they do. Then list specific requirements using item numbers as NF.4.1.X.*
 
 The product has a user interface that manages the user’s current experience and the user’s preferences for objects. The product must also manage emulated locations in Unity with AR Foundation.
-NF.4.1.1 User interface must include option to register new devices.
-NF.4.1.2 User interface must include button to reset scene.
-NF.4.1.3 Devices must display user chosen 3D model over the emulated location.
-NF.4.1.4 Models must display title given to each unique device by the user.
-NF.4.1.5 SolvAR must interface with user’s phone
-NF.4.1.6 SolvAR must interface with emulated device’s location
-NF.4.1.7 SolvAR must interface with AR Foundation
-NF.4.1.8 SolvAR must interface with AR Core
-NF.4.1.9 SolvAR must interface with Python 2.7
+
+- NF.4.1.1 User interface must include option to register new devices.
+- NF.4.1.2 User interface must include button to reset scene.
+- NF.4.1.3 Devices must display user chosen 3D model over the emulated location.
+- NF.4.1.4 Models must display title given to each unique device by the user.
+- NF.4.1.5 SolvAR must interface with user’s phone
+- NF.4.1.6 SolvAR must interface with emulated device’s location
+- NF.4.1.7 SolvAR must interface with AR Foundation
+- NF.4.1.8 SolvAR must interface with AR Core
+- NF.4.1.9 SolvAR must interface with Python 2.7
 
 ### 4.2 Performance Requirements
 *Describe your product's performance needs. Then list specific requirements using item numbers as NF.4.2.X.*
 
 To have satisfactory performance, SolvAR needs to display objects in AR space within a reasonable margin of error and to update the location of the objects with a reasonable frequency. SolvAR supports one user at a time.
-NF.4.2.1. SolvAR will display the location of emulated objects with a margin of error of no more than 1 meter.
-NF.4.2.2. Update frequency of emulated location every 1.5 seconds.
+
+- NF.4.2.1. SolvAR will display the location of emulated objects with a margin of error of no more than 1 meter.
+- NF.4.2.2. Update frequency of emulated location every 1.5 seconds.
 
 ### 4.3 Design Constraints
 *Describe external requirements that will constrain your design choices. Then list specific requirements using item numbers as NF.4.3.X.*
 
 External requirements that constrain our design choices include lack of access to compatible Android devices and limited version control in Unity.
-NF.4.3.1. Not all of our team members have access to an Android device, so access to testing equipment is limited.
-NF.4.3.2. Version control in Unity is limited. We have to export the project as a whole binary file, so version control has to be on entire versions of the Unity project.
+
+- NF.4.3.1. Not all of our team members have access to an Android device, so access to testing equipment is limited.
+- NF.4.3.2. Version control in Unity is limited.
+    - We have to export the project as a whole binary file, so version control has to be on entire versions of the Unity project.
 
 ### 4.4 Quality Requirements
 *What quality expectations do your users have? Is your system life-critical? Describe such issues, then list specific requirements using item numbers as NF.4.4.X.*
@@ -90,5 +94,6 @@ Our system is not life critical. Quality expectations from our users are that So
 ### 4.5 Other Requirements
 Anything else you need to say. Use item numbers NF.4.5.X.
 
-## 5. Appendices
-Include external documents that describe domain or constraints or any necessary information. Use URL links if possible.
+### 5. Appendices
+
+N/A
