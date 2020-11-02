@@ -18,11 +18,13 @@ Devices must display user chosen 3D model over the emulated location. The archit
 ## Architectural Style Choices
 ---
 
-### Pipe-and-Filter Style? 
+### Candidates
+
+#### Pipe-and-Filter Style? 
 
 In this arch style, functionality is achieved by passing input data through filters, or components that modify data. In between these components,  pipes transmit data from one filter to the next without modifying the data. In our project, data about an emulated bluetooth tracker is passed in one direction between components, sometimes being modified, but this style doesn’t fit all of the components of our architecture.
 
-### Model-View-Controller Style?
+#### Model-View-Controller Style?
 
 In this arch style, there are three key components that interact: the Model is the central component and manages the data, logic, and rules of the application; the View, the visual representation of SolvAR; and the Controller, input from the user in the mobile device that converts it into commands for the model or view. These three dynamic core components allow for a better representation of the architecture our project requires.
 
