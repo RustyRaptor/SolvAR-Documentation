@@ -6,7 +6,7 @@
 
 ### Arch Diagram.
 
-![Model View Controller](diagrams/SolvARch.png)
+![Model View Controller](diagrams/SolvARarch.png)
 
 ### Explanatory Text.
 
