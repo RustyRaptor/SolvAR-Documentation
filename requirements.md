@@ -32,10 +32,10 @@ Our product will be an Android mobile app for AR Core-compatible phones used in 
 ### 2.2 Domain Model with Description
 *Display and describe your domain model.*
 
-We emulate objects and generate location data in a dummy data generator that passes this formatted location data to the dummy data broadcaster using Python 2.7. THis is sent to Unity Out of Process, which is processed in C sharp and passed to AR Foundation, which renders it in the AR scene. The app also has a registration wizard and object filters that are connected to a database that track unique objects and the user’s preferences for those objects.
+We emulate objects and store their location data in an X,Y,Z format, along with the object's rotation, in a json file between SolvAR sessions using a json utility. This allows objects to be rendered live in an AR scene using the user's preferences. The app will also have a registration wizard that allows users to store their preferences for their unique objects.
 
 ### 2.3 Product Functions (general)
-The application will be used to track a bluetooth transmitter which is attached to an object of the user’s choice, ie. keys, phone, wallet, etc. The positioning of the object will then be rendered inside of the augmented reality environment projected by the users' phones.
+The application will be used to emulate a bluetooth transmitter attached to an object of the user's choice, i.e. keys, phone, wallet, etc. The position of the object will then be rendered in an augmented reality environment projected by the users' phones.
 
 ### 2.4 User Characteristics and Expectations
 Describe your users and their abilities.
@@ -60,14 +60,12 @@ https://github.com/RustyRaptor/SolvAR-Documentation/blob/gh-pages/userstories.md
 The product has a user interface that manages the user’s current experience and the user’s preferences for objects. The product must also manage emulated locations in Unity with AR Foundation.
 
 - NF.4.1.1 User interface must include option to register new devices.
-- NF.4.1.2 User interface must include button to reset scene.
-- NF.4.1.3 Devices must display user chosen 3D model over the emulated location.
-- NF.4.1.4 Models must display title given to each unique device by the user.
-- NF.4.1.5 SolvAR must interface with user’s phone
-- NF.4.1.6 SolvAR must interface with emulated device’s location
-- NF.4.1.7 SolvAR must interface with AR Foundation
-- NF.4.1.8 SolvAR must interface with AR Core
-- NF.4.1.9 SolvAR must interface with Python 2.7
+- NF.4.1.2 Devices must display user chosen 3D model over the emulated location.
+- NF.4.1.3 Models must display title given to each unique device by the user.
+- NF.4.1.4 SolvAR must interface with user’s phone
+- NF.4.1.5 SolvAR must interface with emulated device’s location
+- NF.4.1.6 SolvAR must interface with AR Foundation
+- NF.4.1.7 SolvAR must interface with AR Core
 
 ### 4.2 Performance Requirements
 *Describe your product's performance needs. Then list specific requirements using item numbers as NF.4.2.X.*
