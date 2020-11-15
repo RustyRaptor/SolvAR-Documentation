@@ -6,7 +6,7 @@ As a parent, I tend to lose my keys and other smaller objects a lot. I would lik
 
 #### Elaboration
 
-Users should have the ability to use a small bluetooth device in tandem with an Android device to find small objects, by displaying a visual representation of the object in a 3D environment. 
+Users should have the ability to use a small bluetooth device in tandem with an Android device to find small objects, by displaying a visual representation of the object in a 3D environment.
 
 #### Constraints
 
@@ -27,7 +27,7 @@ As a visual person, I would like an application that would give visual feedback 
 
 #### Elaboration
 
-Users should have the ability to select an image on the screen of what type of object they wish to track so that the object will display with the location data.
+Users should have the ability to select a model of the type of object they wish to track so that the select model will display with the location data.
 
 #### Constraints
 
@@ -39,7 +39,7 @@ none
 
 #### Acceptance Test
 
-Use the user interface to select an image, and use pre-allocated location data to test the visual feedback.
+Use the user interface to select a model, and use pre-allocated location data to test the visual feedback.
 
 
 ## 3 Visualize Location Data
@@ -54,7 +54,7 @@ In the augmented reality scene process location data to be able to display where
 
 #### Constraints
 
-Distance to the user, if the object is too far from the user it may be impossible to receive data from the transmitter.
+Distance to the user, if the emulated object is too far from the user it represents the loss of the object.
 
 
 #### Effort Estimation
@@ -116,12 +116,12 @@ As a person who recently had their house broken into I’m paranoid about having
 
 #### Elaboration
 
-Track the acceleration of the object and when it reaches a certain threshold it will notify the user that the item might be stolen or missing.
+Track the location of the object and when it reaches a certain threshold it will notify the user that the item might be stolen or missing.
 
 
 #### Constraints
 
-If the user is too far from the object to track it then notification is not possible.
+Requires user to maintain tracking on, to allow SolvAR to run in the background, and for location tracking to be accurate.
 
 #### Effort Estimation
 
@@ -129,4 +129,4 @@ If the user is too far from the object to track it then notification is not poss
 
 #### Acceptance Test
 
-Run away with a transmitter object and see if the application notifies the user.
+Change user location with phone and see if the application notifies the user if emulated object is out of acceptable bounds.
