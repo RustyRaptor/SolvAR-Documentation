@@ -1,3 +1,6 @@
+# Team SolvAR
+### Matthew Horrocks, Jesus Barba, Ziad Arafat, Nathaniel Loken, Ruidong Chen
+---
 # SolvAR Documentation
 
 - [Problem Statement](/problem.md) 
