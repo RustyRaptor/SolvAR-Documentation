@@ -1,5 +1,5 @@
-# Team SolvAR
-### Matthew Horrocks, Jesus Barba, Ziad Arafat, Nathaniel Loken, Ruidong Chen
+###  Team SolvAR - NMSU CS370 Fall 2020
+#### Members: Matthew Horrocks, Jesus Barba, Ziad Arafat, Nathaniel Loken, Ruidong Chen
 ---
 # SolvAR Documentation
 
