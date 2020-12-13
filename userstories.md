@@ -1,6 +1,6 @@
 # User Stories
 
-## 1 Download Application on Android
+## 1. Download Application on Android
 
 As a parent, I tend to lose my keys and other smaller objects a lot. I would like to find an application that could locate and receive visual feedback about these objects.
 
@@ -20,7 +20,7 @@ Less than an hour
 
 Download the APK from an external source onto an Android device, install the application and run the application on the phone.
 
-## 2 Select Type of Objects
+## 2. Select Type of Objects
 
 As a visual person, I would like an application that would give visual feedback in regards to what type of object I am looking for.
 
@@ -42,7 +42,7 @@ none
 Use the user interface to select a model, and use pre-allocated location data to test the visual feedback.
 
 
-## 3 Visualize Location Data
+## 3. Visualize Location Data
 
 As a forgetful person, I often lose small items such as my keys and would like a way to visualize where they are in a room to find them easier.
 
@@ -65,7 +65,7 @@ Distance to the user, if the emulated object is too far from the user it represe
 
 Provide pre-determined location data to the application to see if it displays the object in the correct location in the scene.
 
-## 4 Save Location Data
+## 4. Save Location Data
 
 As someone who works with inventory and tracking valuable assets I would like to be able to store logs of object locations for liability reasons.
 
@@ -87,7 +87,7 @@ The data is limited to the precision and consistency of the tracking we use.
 
 Save the location history of more than 1 object and test that the saved log is accurate.
 
-## 5 See Metadata of Each Object
+## 5. See Metadata of Each Object
 
 As a user trying to find an object I would like to be able to see the details of the object such as its name.
 
@@ -109,7 +109,7 @@ If the object is not in view you can’t tap on it.
 Register an object in the app then tap on it while it’s in the AR scene.
 
 
-## 6 Receive Notifications about Object Proximity
+## 6. Receive Notifications about Object Proximity
 
 As a person who recently had their house broken into I’m paranoid about having my valuables stolen and would like an application which can notify me when that might be happening.
 
