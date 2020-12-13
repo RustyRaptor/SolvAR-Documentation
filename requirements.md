@@ -90,7 +90,7 @@ External requirements that constrain our design choices include lack of access t
 Our system is not life critical. Quality expectations from our users are that SolvAR is user friendly, that it can show the position information and object information in a useful way and understandable, and accurate and timely position info. This product will require minimal training.
 
 ### 4.5 Other Requirements
-Anything else you need to say. Use item numbers NF.4.5.X.
+*Anything else you need to say. Use item numbers NF.4.5.X.*
 
 ### 5. Appendices
 
