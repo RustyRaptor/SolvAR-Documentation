@@ -25,7 +25,7 @@ Additionally, running the SolvAR app in real time requires all of the simulated 
 
 Once we are able to get a successful run of SolvAR on an Android device, we can compare the live experience of the app and its features to our user stories to determine if the acceptance criteria for each user story is met and if a feature is accepted by a user. 
  
-#### Last updated: Dec 2, 2020.
+#### Last updated: Dec 12, 2020.
 
 User Story | Accepted?
 ---------- | ---------
